@@ -1,10 +1,15 @@
 ---
 name: wechat-deai
+display_name: 公众号去AI味
+display_name_en: wechat-deai
 description: 去掉微信公众号文案的 AI 味，把模型腔改回人在说话的语感。用于公众号成稿润色、写稿时的文风约束、发布前的 AI 痕迹审校。覆盖开场三行、段落节奏、句式、用词、结尾、立场六个内容层，并排查排版层模板残留（英文标签、模板语法泄漏、表格塌陷、重复编号）。以具体性配额为硬门槛：每 200 字至少一处可核验细节。不改动事实、数字、专有名词、引语与作者判断的确定性。
+description_zh: 把公众号文案的模型腔改回人在说话的语感。六层内容特征库（42 条）＋14 个重写动作＋排版层模板残留排查，以具体性配额为硬门槛，不改动任何事实。
+description_en: Remove the AI-generated feel from WeChat Official Account copy. Six content-layer checks, 14 rewrite moves, layout-template residue scan, and a hard specificity quota. Never invents facts.
+category: writing
+version: "1.0.0"
+author: AskLawyerZHU
+license: MIT
 metadata:
-  version: "1.0.0"
-  author: AskLawyerZHU
-  license: MIT
   trigger: 公众号去 AI 味、模型腔改写、文案润色、发布前审校
 agent_created: true
 ---
